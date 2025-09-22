@@ -5,8 +5,12 @@ using namespace std; //brings in a lot of code
 // 10 * 5 = 50
 
 int main(int argc, char *argv[]) {
-    cout << "argc = " <<argc << endl;
-    cout << "argv[0]: " << argv[0] << endl;
-    cout << "argv[1]: " << argv[1] * argv[2] << endl;
+    if (argc != 3) {
+        cout << "prod requires 2 arguments" << endl;
+        return 1;
+    }
+    cout << "./prod" << " " << argv[1] << " " << argv[2] << endl;
+    cout << argv[1]<< " * " << argv[2] <<" = " << atof(argv[1]) * atof(argv[2]) << endl;
     return 0;
-}
+}   
+
