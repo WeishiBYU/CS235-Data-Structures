@@ -1,21 +1,19 @@
 #include <iostream> //import
 #include <string>
 #include <fstream>
-
+#include <vector>
 using namespace std; //brings in a lot of code
 
 int main() {
-    string joke;
-    cout << "Joke?" << endl;
-    getline(cin, joke);
-    ofstream output("dadjoke.txt", ios::app);
-    output << joke << endl;
-    output.close();
+    vector<string> words;
+    string o = "vector";
 
+    words = {"hello", "world", "this", "is", "a", "test"};
+    words.insert(words.begin(), o);
 
-
-
-
+    for (string word : words) {
+        cout << word << endl;
+    }
 
     return 0;
 }

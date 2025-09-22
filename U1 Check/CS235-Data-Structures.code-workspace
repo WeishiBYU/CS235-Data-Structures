@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "CS235-Data-Structures",
+			"path": ".."
+		},
+		{
+			"name": "Homework1b",
+			"path": "../../../OneDrive/Documents/CS 235/Homework1b"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"string": "cpp",
+			"istream": "cpp",
+			"iosfwd": "cpp",
+			"xstring": "cpp",
+			"fstream": "cpp",
+			"xiosbase": "cpp"
+		}
+	}
+}
