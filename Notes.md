@@ -62,7 +62,7 @@ Lists and Iterators to use:
     - Can only add or remove first item in container.
     - Good for reversing orders
     - Features
-        - isEmpty() Bool for if it's empty
+        - empty() Bool for if it's empty
         - push(o) o to top of stack
         - top() pointer to stack begin
         - pop() remove top of stack
@@ -74,7 +74,7 @@ Lists and Iterators to use:
     - Good for queues
     - Ordered (Programer Controls)
     - Features
-        - isEmpty() : returns true if there are no objects on the queue and false otherwise
+        - empty() : returns true if there are no objects on the queue and false otherwise
         - push(o) : puts the object o into the back of the queue
         - front() : returns a pointer (or iterator) to the object that is at the front of the queue
         - pop() : removes the object that is at the front of the queue
@@ -84,7 +84,7 @@ Lists and Iterators to use:
     - Ordered (Programer Controls)
     - Like Queue but there is a comparator to order to priority
     - Features
-        - isEmpty() : returns true if there are no objects on the priority queue and false otherwise
+        - empty() : returns true if there are no objects on the priority queue and false otherwise
         - push(o) : puts the object o into the priority queue
         - front() : returns a pointer (or iterator) to the object that has the highest priority in the container
         - pop() : removes the object with the highest priority in the container
