@@ -8,6 +8,9 @@ Thing to remember:
 
 
 Lists and Iterators to use:
+- Conversion
+    - append = push_back
+    - 
 - List: Container
     - #include <vector>
     - Ordered/Index (Programer Controls)
@@ -44,25 +47,27 @@ Lists and Iterators to use:
 
 - Maps: Container
     - #include <>
-    - Ordered/Index (Programer Controls)
+    - Ordered/Index (No Order)
+    - No duplicates
+    - Fast a finding
     - Features
         - size()
-        - get(i)
         - set(i, o)
-        - append(o)
-        - insert(i, o)
-        - remove(i)
+        - find(o)
+        - remove(o)
 
 - Stacks: Container
     - #include <>
     - Ordered/Index (Programer Controls)
+    - Can only add or remove first item in container.
+    - Good for reversing orders
+    = 
     - Features
         - size()
-        - get(i)
-        - set(i, o)
-        - append(o)
-        - insert(i, o)
-        - remove(i)
+        - isEmpty() Bool for if it's empty
+        - push(o) o to top of stack
+        - top() pointer to stack begin
+        - pop() remove top of stack
 
 - Queues: Container
     - #include <>
