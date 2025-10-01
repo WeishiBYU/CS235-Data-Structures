@@ -35,7 +35,7 @@ Lists and Iterators to use:
         - remove(i) (good) for start, (slower) for everything else
 
 - Sets: Container
-    - #include <>
+    - #include <set>
     - Ordered/Index (Programer Controls)
     - Features
         - size()
@@ -49,7 +49,7 @@ Lists and Iterators to use:
     - #include <>
     - Ordered/Index (No Order)
     - No duplicates
-    - Fast a finding
+    - Fast at finding
     - Features
         - size()
         - set(i, o)
@@ -58,16 +58,15 @@ Lists and Iterators to use:
 
 - Stacks: Container
     - #include <>
-    - Ordered/Index (Programer Controls)
+    - Ordered (Programer Controls)
     - Can only add or remove first item in container.
     - Good for reversing orders
-    = 
     - Features
-        - size()
         - isEmpty() Bool for if it's empty
         - push(o) o to top of stack
         - top() pointer to stack begin
         - pop() remove top of stack
+        - size()
 
 - Queues: Container
     - #include <>
