@@ -70,22 +70,21 @@ Lists and Iterators to use:
 
 - Queues: Container
     - #include <>
-    - Ordered/Index (Programer Controls)
+    - First in First Out
+    - Good for queues
+    - Ordered (Programer Controls)
     - Features
-        - size()
-        - get(i)
-        - set(i, o)
-        - append(o)
-        - insert(i, o)
-        - remove(i)
+        - isEmpty() : returns true if there are no objects on the queue and false otherwise
+        - push(o) : puts the object o into the back of the queue
+        - front() : returns a pointer (or iterator) to the object that is at the front of the queue
+        - pop() : removes the object that is at the front of the queue
 
 - Priority Queues: Container
     - #include <>
-    - Ordered/Index (Programer Controls)
+    - Ordered (Programer Controls)
+    - Like Queue but there is a comparator to order to priority
     - Features
-        - size()
-        - get(i)
-        - set(i, o)
-        - append(o)
-        - insert(i, o)
-        - remove(i)
+        - isEmpty() : returns true if there are no objects on the priority queue and false otherwise
+        - push(o) : puts the object o into the priority queue
+        - front() : returns a pointer (or iterator) to the object that has the highest priority in the container
+        - pop() : removes the object with the highest priority in the container
