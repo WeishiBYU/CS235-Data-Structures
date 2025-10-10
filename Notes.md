@@ -36,7 +36,7 @@ Lists and Iterators to use:
 
 - Sets: Container
     - #include <set>
-    - Ordered/Index (Programer Controls)
+    - Ordered/Index (No oder)
     - Features
         - size()
         - get(i)
@@ -47,14 +47,17 @@ Lists and Iterators to use:
 
 - Maps: Container
     - #include <>
-    - Ordered/Index (No Order)
+    - Ordered/Index ()
+    - same as sets
+    - There is 2 parts, one part is a set of the keys and the other is the value
     - No duplicates
     - Fast at finding
+    - Like Username, and passwords
     - Features
         - size()
-        - set(i, o)
-        - find(o)
-        - remove(o)
+        - nameMap(key) = value
+        - nameMap.getValue(k)
+
 
 - Stacks: Container
     - #include <>

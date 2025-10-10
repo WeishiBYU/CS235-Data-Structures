@@ -10,6 +10,13 @@
         "system_error": "cpp",
         "xlocale": "cpp",
         "xutility": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "sstream": "cpp",
+        "xstring": "cpp",
+        "unordered_map": "cpp",
+        "cmath": "cpp",
+        "stdexcept": "cpp",
+        "deque": "cpp",
+        "list": "cpp"
     }
 }
